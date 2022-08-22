@@ -1,0 +1,27 @@
+{
+  "name": "article-ia-batcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "tsc && node dist/app.js",
+    "pubsub": "tsc && node dist/publisher.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions": "^2.2.0",
+    "@google-cloud/pubsub": "^3.1.0",
+    "@google-cloud/storage": "^6.4.0",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "google-auth-library": "^8.1.1"
+  },
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/dotenv": "^8.2.0",
+    "ts-node": "^8.10.2",
+    "typescript": "3.8.3"
+  }
+}
