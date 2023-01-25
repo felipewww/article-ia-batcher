@@ -4,4 +4,4 @@ dotenv.config()
 
 const obj = require('./index.js')
 
-obj.helloPubSub(null, null)
+obj.csvDispatcher(null, null)

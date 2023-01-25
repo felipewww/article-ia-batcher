@@ -27,4 +27,4 @@ async function publishMessage() {
     }
 }
 
-publishMessage();
+// publishMessage();
