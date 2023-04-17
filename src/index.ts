@@ -111,7 +111,3 @@ exports.csvDispatcher = (event: any, context: any) => {
             })
     }
 };
-
-function readFiles() {
-
-}
