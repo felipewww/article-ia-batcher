@@ -1,0 +1,1 @@
+gcloud functions deploy node-csv-dispatcher --region us-east4 --entry-point csvDispatcher --runtime nodejs16 --trigger-topic sponsored-article-topic
